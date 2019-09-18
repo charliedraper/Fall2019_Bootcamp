@@ -1,6 +1,4 @@
-var fs = require('fs'),
-    mongoose = require('mongoose'), 
-    Schema = mongoose.Schema, 
+var mongoose = require('mongoose'),
     Listing = require('./ListingSchema.js'), 
     config = require('./config');
 
